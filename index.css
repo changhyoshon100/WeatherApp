@@ -39,7 +39,30 @@ text {
 }
 
 .search {
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+}
+.searchRst {
+  margin-left: 2.5rem;
+}
+.recs {
+  display: inline-block;
+  width: 500px;
+  margin-left: calc(50% - 250px);
+}
+
+.sign {
+  float: right;
+  margin-right: 20%;
+}
+
+.signup,
+.signin {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: #4a240c;
 }

@@ -12,15 +12,56 @@
   </head>
   <body>
     <header class="header">
-      <h1>Weather App</h1>
+      <h1 style="width: 100%">
+        Weather App
+        <span class="sign">
+          <button class="signup">Sign Up</button>
+          <button class="signin">Sign In</button>
+        </span>
+      </h1>
     </header>
     <div class="main-image">
       <img src="./weather.jpg" style="width: 100%; height: 300px" />
     </div>
 
     <div class="search">
-      <input type="text" id="searchBar" name="name" required size="10" />
+      <input
+        type="text"
+        id="searchBar"
+        name="name"
+        required
+        size="15"
+        placeholder="Search City!"
+      />
       <input class="button" id="btn" type="button" value="click" />
+
+      <section class="searchRst">
+        <h3 class="city">Weather info</h3>
+        <div>
+          <label>City Name:</label>
+          <span class="cityname">Name</span>
+        </div>
+
+        <div>
+          <label>Temp:</label>
+          <span class="temp">temp</span>
+        </div>
+
+        <div>
+          <label>Weather:</label>
+          <span class="weather">weather</span>
+        </div>
+
+        <div>
+          <label>WindSpeed:</label>
+          <span class="windspeed">windSpeed</span>
+        </div>
+      </section>
     </div>
+
+    <section class="recs">
+      <h2>Recommendation of fashion</h2>
+      <p class="recsDesc"></p>
+    </section>
   </body>
 </html>
