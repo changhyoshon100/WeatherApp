@@ -1,8 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/8FXtKFIF)
-# Team Other Project
+Fashion recommendation by weather forecast.
 
-You are to start your team project here. Read the documentation for
-[Pr2: Creative Idea](https://umass-cs-326.github.io/docs/project/Idea/) and replace this paragraph with your team's
-creative web application idea!
+Giving out some fashion recommendations by weather from weather API. 
+For security of the webpage, also created sign in, sign up so not anyone can be sneaky to come and out. 
+If a user did sign up, the information goes to the database which is managed by Robo3T(app) and the user next time matches this stored information,
+they can get in the website. 
 
-Also, replace NUM above with your team's number.
+Some features or tools:
+NodeJS,
+HTML, CSS, Javascript,
+Mongoose,
+Robo3T(=Studio 3T, database tool), 
+weather API,
+Input validation to check id and password length and some special characters,
+categorized by weather using conditional statement,
